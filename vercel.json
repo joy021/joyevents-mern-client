@@ -1,0 +1,14 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/:match*",
+        "destination": "https://joyevents-mern-server.onrender.com/api/:match*"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+  
+  
